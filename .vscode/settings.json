@@ -1,7 +1,0 @@
-{
-    "git.ignoreLimitWarning": true,
-    "css.lint.unknownAtRules": "ignore",
-    "files.associations": {
-        "*.css": "postcss"
-    }
-}
