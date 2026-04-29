@@ -3,7 +3,7 @@
 import { useState, useCallback, useRef } from "react";
 import { useAudioAnalyzer } from "./use-audio-analyzer";
 import type { WhiteboardStep } from "@/types/whiteboard";
-
+import { useEffect } from 'react';
 export type Message = {
   role: "user" | "tutor";
   content: string;
